@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
 import { Route } from 'react-router-dom';
-import { Home, About, Contact, Navigation } from './components';
+import {Home} from './components';
+import {About} from './components';
+import {Contact} from './components';
+import {Navigation} from './components';
 
 const App = () => (
   <div>
